@@ -23,8 +23,9 @@ export class App extends Component {
     return (
       <div
         style={{
-          height: '100vh',
+          height: '100%',
           display: 'flex',
+          flexDirection: 'column',
           gap: 60,
           justifyContent: 'center',
           alignItems: 'center',
