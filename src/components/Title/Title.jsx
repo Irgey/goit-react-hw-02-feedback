@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-
-const Title = ({ text }) => <h2>{text}</h2>;
+import css from './Title.module.css';
+const Title = ({ text }) => <h2 className={css.sectionTitle}>{text}</h2>;
 
 export default Title;
 

@@ -23,14 +23,16 @@ export class App extends Component {
     return (
       <div
         style={{
-          height: '100%',
-          display: 'flex',
-          flexDirection: 'column',
-          gap: 60,
-          justifyContent: 'center',
-          alignItems: 'center',
-          fontSize: 40,
-          color: '#010101',
+          //   height: '100%',
+          //   display: 'flex',
+          //   flexDirection: 'column',
+          //   gap: 60,
+          //   justifyContent: 'center',
+          //   alignItems: 'center',
+          fontSize: 26,
+          //   color: '#010101',
+          paddingLeft: 15,
+          paddingTop: 15,
         }}
       >
         <Section title="Please leave feedback">
@@ -51,13 +53,6 @@ export class App extends Component {
           ) : (
             <Notification message="There is no feedback" />
           )}
-          {/* <Statistics
-            good={this.state.good}
-            neutral={this.state.neutral}
-            bad={this.state.bad}
-            total={this.countTotalFeedback}
-            positivePercentage={this.countPositiveFeedbackPercentage}
-          /> */}
         </Section>
       </div>
     );
